@@ -26,7 +26,7 @@ function Xtable() {
       // console.log(data)
       return b.views-a.views
   });
-  setSorteddata([...data])
+  setSorteddata(data)
   };
 
   const sortview=()=>{
@@ -37,7 +37,7 @@ function Xtable() {
       return new Date(b.date)- new Date(a.date);
 
   });
-  setSorteddata([...data])
+  setSorteddata(data)
   };
 
 
